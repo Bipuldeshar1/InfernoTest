@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.common
 {
-    internal class BaseEntity
+    public class BaseEntity
     {
         public string ExposeId { get; set; }
         public DateTime CreatedDate { get; set; }
