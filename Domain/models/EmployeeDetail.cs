@@ -8,6 +8,7 @@ namespace Domain.models
 {
     public class EmployeeDetail
     {
+        public int Id { get; set; }
         public string EmployeeType {  get; set; }
         public string Title { get; set; }
         public string JoinDate { get; set; }
